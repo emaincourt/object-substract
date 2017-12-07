@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: mhart/alpine-node
+    steps:
+      - checkout
+      - run:
+          name: Install
+          command: yarn
+      - run:
+          name: Build
+          command: yarn build
+      - run:
+          name: Test
+          command: yarn test
