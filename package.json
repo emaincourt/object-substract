@@ -1,0 +1,30 @@
+{
+  "name": "object-substract",
+  "version": "1.0.0",
+  "description": "Deeply substract one object to another",
+  "main": "dist",
+  "repository": "git@github.com:emaincourt/object-substract.git",
+  "author": "Elliot Maincourt <e.maincourt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "lodash.find": "^4.6.0",
+    "lodash.isobject": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "jest": "^21.2.1"
+  }
+}
