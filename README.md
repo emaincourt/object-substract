@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/emaincourt/object-substract/tree/master.svg?style=svg)](https://circleci.com/gh/emaincourt/object-substract/tree/master)
+[![codecov](https://codecov.io/gh/emaincourt/object-substract/branch/master/graph/badge.svg)](https://codecov.io/gh/emaincourt/object-substract)
+
 # object-substract
 
 Lightweight and easy to use tool for deeply removing a subset of fields from an object.
