@@ -1,6 +1,6 @@
 {
   "name": "object-substract",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deeply substract one object to another",
   "main": "dist",
   "repository": "git@github.com:emaincourt/object-substract.git",
@@ -20,6 +20,7 @@
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.3",
     "babel-jest": "^21.2.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
